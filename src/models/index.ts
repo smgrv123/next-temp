@@ -1,5 +1,5 @@
-import { RequestInfoType, HTTPMethod, NetworkClient } from '@/networking/BaseNetwork';
-import { ServiceClient } from '@/networking/ServiceClient';
+import { RequestInfoType, HTTPMethod, NetworkClient } from '@/src/networking/BaseNetwork';
+import { ServiceClient } from '@/src/networking/ServiceClient';
 
 export type RequestModel<T> = {
   type: ServiceType;

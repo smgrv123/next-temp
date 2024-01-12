@@ -1,5 +1,5 @@
-import Logger from '@/lib/Logger';
-import { ServiceType, TemplateService } from '@/models';
+import Logger from '@/src/lib/Logger';
+import { ServiceType, TemplateService } from '@/src/models';
 
 let tempService = new TemplateService();
 

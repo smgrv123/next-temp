@@ -5,7 +5,7 @@ import axios, {
   AxiosResponse,
   InternalAxiosRequestConfig,
 } from 'axios';
-import Logger from '@/lib/Logger';
+import Logger from '@/src/lib/Logger';
 
 export enum HTTPMethod {
   GET = 'GET',
