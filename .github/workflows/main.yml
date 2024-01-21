@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: 14.x
       - name: npm ci # install dependancies
-        run: if [ -e package-lock.json ]; then npm ci else  npm i fi
+        run: npm i
       - name: test
         run: npm test
       - name: format
